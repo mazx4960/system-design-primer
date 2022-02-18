@@ -8,8 +8,8 @@ done;
 for file in contents/*.md ; do
     # Add markbind header to markdown files
     sed -i "1s/^/$header/" "$file"
-    sed -i "s/images\//\/images\//" "$file"
-    sed -i "s/solutions\//\/solutions\//" "$file"
+    sed -i "s/images\//..\/images\//" "$file"
+    sed -i "s/solutions\//..\/solutions\//" "$file"
     
     # print formatted nav item
     base=`basename "$file" .md`
@@ -18,7 +18,7 @@ done;
 
 for folder in solutions/system_design/* ; do
     file="$folder/README.md"
-    
+
     if [ -f "$file" ]; then
         # Add markbind header to markdown files
         sed -i "1s/^/$header/" "$file"

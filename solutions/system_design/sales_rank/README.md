@@ -22,6 +22,14 @@ pageNavTitle: "Chapters of This Page"
 
 <br>
 
+<frontmatter>
+layout: default.md
+pageNav: 3
+pageNavTitle: "Chapters of This Page"
+</frontmatter>
+
+<br>
+
 # Design Amazon's sales rank by category feature
 
 *Note: This document links directly to relevant areas found in the [system design topics](https://github.com/donnemartin/system-design-primer#index-of-system-design-topics) to avoid duplication.  Refer to the linked content for general talking points, tradeoffs, and alternatives.*
