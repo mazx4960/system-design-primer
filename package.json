@@ -8,7 +8,7 @@
   "scripts": {
     "init": "markbind init",
     "start": "markbind serve",
-    "build": "markbind build",
+    "build": "yarn format && markbind build",
     "deploy": "markbind deploy",
     "format": "split-md README.md \"## \" \" \" \"contents/\" && bash format-files.sh"
   },

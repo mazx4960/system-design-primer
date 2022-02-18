@@ -1,8 +1,6 @@
 # markbind folders
 contents/
-_markbind/
 _site/
-stylesheets/
 
 yarn.lock
 
