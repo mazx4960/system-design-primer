@@ -2,6 +2,320 @@
   "enableSearch": true,
   "pages": [
     {
+      "src": "contents/Ankiflashcards.md",
+      "title": "",
+      "headings": {
+        "anki-flashcards": "Anki flashcards",
+        "coding-resource-interactive-coding-challenges": "Coding Resource: Interactive Coding Challenges"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Appendix.md",
+      "title": "",
+      "headings": {
+        "appendix": "Appendix",
+        "powers-of-two-table": "Powers of two table",
+        "latency-numbers-every-programmer-should-know": "Latency numbers every programmer should know",
+        "additional-system-design-interview-questions": "Additional system design interview questions",
+        "real-world-architectures": "Real world architectures",
+        "company-architectures": "Company architectures",
+        "company-engineering-blogs": "Company engineering blogs"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Applicationlayer.md",
+      "title": "",
+      "headings": {
+        "application-layer": "Application layer",
+        "microservices": "Microservices",
+        "service-discovery": "Service Discovery",
+        "disadvantage-s-application-layer": "Disadvantage(s): application layer",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Asynchronism.md",
+      "title": "",
+      "headings": {
+        "asynchronism": "Asynchronism",
+        "message-queues": "Message queues",
+        "task-queues": "Task queues",
+        "back-pressure": "Back pressure",
+        "disadvantage-s-asynchronism": "Disadvantage(s): asynchronism",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Availabilitypatterns.md",
+      "title": "",
+      "headings": {
+        "availability-patterns": "Availability patterns",
+        "fail-over": "Fail-over",
+        "disadvantage-s-failover": "Disadvantage(s): failover",
+        "replication": "Replication",
+        "availability-in-numbers": "Availability in numbers"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Availabilityvs-consistency.md",
+      "title": "",
+      "headings": {
+        "availability-vs-consistency": "Availability vs consistency",
+        "cap-theorem": "CAP theorem",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Cache.md",
+      "title": "",
+      "headings": {
+        "cache": "Cache",
+        "client-caching": "Client caching",
+        "cdn-caching": "CDN caching",
+        "web-server-caching": "Web server caching",
+        "database-caching": "Database caching",
+        "application-caching": "Application caching",
+        "caching-at-the-database-query-level": "Caching at the database query level",
+        "caching-at-the-object-level": "Caching at the object level",
+        "when-to-update-the-cache": "When to update the cache",
+        "disadvantage-s-cache": "Disadvantage(s): cache",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Communication.md",
+      "title": "",
+      "headings": {
+        "communication": "Communication",
+        "hypertext-transfer-protocol-http": "Hypertext transfer protocol (HTTP)",
+        "transmission-control-protocol-tcp": "Transmission control protocol (TCP)",
+        "user-datagram-protocol-udp": "User datagram protocol (UDP)",
+        "remote-procedure-call-rpc": "Remote procedure call (RPC)",
+        "representational-state-transfer-rest": "Representational state transfer (REST)",
+        "rpc-and-rest-calls-comparison": "RPC and REST calls comparison"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Consistencypatterns.md",
+      "title": "",
+      "headings": {
+        "consistency-patterns": "Consistency patterns",
+        "weak-consistency": "Weak consistency",
+        "eventual-consistency": "Eventual consistency",
+        "strong-consistency": "Strong consistency",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Contactinfo.md",
+      "title": "",
+      "headings": {
+        "contact-info": "Contact info"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Contentdelivery-network.md",
+      "title": "",
+      "headings": {
+        "content-delivery-network": "Content delivery network",
+        "push-cdns": "Push CDNs",
+        "pull-cdns": "Pull CDNs",
+        "disadvantage-s-cdn": "Disadvantage(s): CDN",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Contributing.md",
+      "title": "",
+      "headings": {
+        "contributing": "Contributing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Credits.md",
+      "title": "",
+      "headings": {
+        "credits": "Credits"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Database.md",
+      "title": "",
+      "headings": {
+        "database": "Database",
+        "relational-database-management-system-rdbms": "Relational database management system (RDBMS)",
+        "nosql": "NoSQL",
+        "sql-or-nosql": "SQL or NoSQL"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Domainname-system.md",
+      "title": "",
+      "headings": {
+        "domain-name-system": "Domain name system",
+        "disadvantage-s-dns": "Disadvantage(s): DNS",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Howto-approach-a-system-design-interview-question.md",
+      "title": "",
+      "headings": {
+        "how-to-approach-a-system-design-interview-question": "How to approach a system design interview question",
+        "step-1-outline-use-cases-constraints-and-assumptions": "Step 1: Outline use cases, constraints, and assumptions",
+        "step-2-create-a-high-level-design": "Step 2: Create a high level design",
+        "step-3-design-core-components": "Step 3: Design core components",
+        "step-4-scale-the-design": "Step 4: Scale the design",
+        "back-of-the-envelope-calculations": "Back-of-the-envelope calculations",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Indexof-system-design-topics.md",
+      "title": "",
+      "headings": {
+        "index-of-system-design-topics": "Index of system design topics"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Latencyvs-throughput.md",
+      "title": "",
+      "headings": {
+        "latency-vs-throughput": "Latency vs throughput",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/License.md",
+      "title": "",
+      "headings": {
+        "license": "License"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Loadbalancer.md",
+      "title": "",
+      "headings": {
+        "load-balancer": "Load balancer",
+        "layer-4-load-balancing": "Layer 4 load balancing",
+        "layer-7-load-balancing": "Layer 7 load balancing",
+        "horizontal-scaling": "Horizontal scaling",
+        "disadvantage-s-load-balancer": "Disadvantage(s): load balancer",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Motivation.md",
+      "title": "",
+      "headings": {
+        "motivation": "Motivation",
+        "learn-how-to-design-large-scale-systems": "Learn how to design large-scale systems",
+        "learn-from-the-open-source-community": "Learn from the open source community",
+        "prep-for-the-system-design-interview": "Prep for the system design interview"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Object-orienteddesign-interview-questions-with-solutions.md",
+      "title": "",
+      "headings": {
+        "object-oriented-design-interview-questions-with-solutions": "Object-oriented design interview questions with solutions"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Performancevs-scalability.md",
+      "title": "",
+      "headings": {
+        "performance-vs-scalability": "Performance vs scalability",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Reverseproxy-(web-server).md",
+      "title": "",
+      "headings": {
+        "reverse-proxy-web-server": "Reverse proxy (web server)",
+        "load-balancer-vs-reverse-proxy": "Load balancer vs reverse proxy",
+        "disadvantage-s-reverse-proxy": "Disadvantage(s): reverse proxy",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Security.md",
+      "title": "",
+      "headings": {
+        "security": "Security",
+        "source-s-and-further-reading": "Source(s) and further reading"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Studyguide.md",
+      "title": "",
+      "headings": {
+        "study-guide": "Study guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Systemdesign-interview-questions-with-solutions.md",
+      "title": "",
+      "headings": {
+        "system-design-interview-questions-with-solutions": "System design interview questions with solutions",
+        "design-pastebin-com-or-bit-ly": "Design Pastebin.com (or Bit.ly)",
+        "design-the-twitter-timeline-and-search-or-facebook-feed-and-search": "Design the Twitter timeline and search (or Facebook feed and search)",
+        "design-a-web-crawler": "Design a web crawler",
+        "design-mint-com": "Design Mint.com",
+        "design-the-data-structures-for-a-social-network": "Design the data structures for a social network",
+        "design-a-key-value-store-for-a-search-engine": "Design a key-value store for a search engine",
+        "design-amazon-s-sales-ranking-by-category-feature": "Design Amazon's sales ranking by category feature",
+        "design-a-system-that-scales-to-millions-of-users-on-aws": "Design a system that scales to millions of users on AWS"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Systemdesign-topics-start-here.md",
+      "title": "",
+      "headings": {
+        "system-design-topics-start-here": "System design topics: start here",
+        "step-1-review-the-scalability-video-lecture": "Step 1: Review the scalability video lecture",
+        "step-2-review-the-scalability-article": "Step 2: Review the scalability article",
+        "next-steps": "Next steps"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/Underdevelopment.md",
+      "title": "",
+      "headings": {
+        "under-development": "Under development"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "solutions/system_design/mint/README-zh-Hans.md",
       "title": "",
       "headings": {
@@ -97,6 +411,312 @@
         "security": "Security",
         "latency-numbers": "Latency numbers",
         "ongoing": "Ongoing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/query_cache/README-zh-Hans.md",
+      "title": "",
+      "headings": {
+        "web": "设计一个键-值缓存来存储最近 web 服务查询的结果",
+        "": "第一步：简述用例与约束条件",
+        "-2": "用例",
+        "-4": "限制条件与假设",
+        "-7": "第二步：概要设计",
+        "-8": "第三步：设计核心组件",
+        "-9": "用例：用户发送了一次请求，命中了缓存",
+        "-12": "第四步：架构扩展",
+        "-13": "将内存缓存扩大到多台机器",
+        "-14": "其它要点",
+        "sql": "SQL 缩放模式",
+        "-15": "缓存",
+        "-16": "异步与微服务",
+        "-17": "通信",
+        "-18": "安全性",
+        "-19": "延迟数值",
+        "-20": "持续探讨"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/query_cache/README.md",
+      "title": "",
+      "headings": {
+        "design-a-key-value-cache-to-save-the-results-of-the-most-recent-web-server-queries": "Design a key-value cache to save the results of the most recent web server queries",
+        "step-1-outline-use-cases-and-constraints": "Step 1: Outline use cases and constraints",
+        "use-cases": "Use cases",
+        "constraints-and-assumptions": "Constraints and assumptions",
+        "step-2-create-a-high-level-design": "Step 2: Create a high level design",
+        "step-3-design-core-components": "Step 3: Design core components",
+        "use-case-user-sends-a-request-resulting-in-a-cache-hit": "Use case: User sends a request resulting in a cache hit",
+        "step-4-scale-the-design": "Step 4: Scale the design",
+        "expanding-the-memory-cache-to-many-machines": "Expanding the Memory Cache to many machines",
+        "additional-talking-points": "Additional talking points",
+        "sql-scaling-patterns": "SQL scaling patterns",
+        "caching": "Caching",
+        "asynchronism-and-microservices": "Asynchronism and microservices",
+        "communications": "Communications",
+        "security": "Security",
+        "latency-numbers": "Latency numbers",
+        "ongoing": "Ongoing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/sales_rank/README-zh-Hans.md",
+      "title": "",
+      "headings": {
+        "amazon": "为 Amazon 设计分类售卖排行",
+        "": "第一步：简述用例与约束条件",
+        "-2": "用例",
+        "-5": "限制条件与假设",
+        "-8": "第二步：概要设计",
+        "-9": "第三步：设计核心组件",
+        "-10": "用例：服务需要根据分类计算上周最受欢迎的商品",
+        "-11": "用例：用户需要根据分类浏览上周中最受欢迎的商品",
+        "-12": "第四步：架构扩展",
+        "-13": "其它要点",
+        "-14": "缓存",
+        "-15": "异步与微服务",
+        "-16": "通信",
+        "-17": "安全性",
+        "-18": "延迟数值",
+        "-19": "持续探讨"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/sales_rank/README.md",
+      "title": "",
+      "headings": {
+        "design-amazon-s-sales-rank-by-category-feature": "Design Amazon's sales rank by category feature",
+        "step-1-outline-use-cases-and-constraints": "Step 1: Outline use cases and constraints",
+        "use-cases": "Use cases",
+        "constraints-and-assumptions": "Constraints and assumptions",
+        "step-2-create-a-high-level-design": "Step 2: Create a high level design",
+        "step-3-design-core-components": "Step 3: Design core components",
+        "use-case-service-calculates-the-past-week-s-most-popular-products-by-category": "Use case: Service calculates the past week's most popular products by category",
+        "use-case-user-views-the-past-week-s-most-popular-products-by-category": "Use case: User views the past week's most popular products by category",
+        "step-4-scale-the-design": "Step 4: Scale the design",
+        "additional-talking-points": "Additional talking points",
+        "caching": "Caching",
+        "asynchronism-and-microservices": "Asynchronism and microservices",
+        "communications": "Communications",
+        "security": "Security",
+        "latency-numbers": "Latency numbers",
+        "ongoing": "Ongoing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/scaling_aws/README-zh-Hans.md",
+      "title": "",
+      "headings": {
+        "1": "第 1 步：用例和约束概要",
+        "2": "第 2 步：创建高级设计方案",
+        "3": "第 3 步：设计核心组件",
+        "4": "第 4 步：扩展设计",
+        "aws": "在 AWS 上设计支持百万级到千万级用户的系统",
+        "": "用例",
+        "-3": "约束和假设",
+        "-6": "用例：用户进行读写请求",
+        "-9": "用户+",
+        "-14": "用户+++",
+        "-17": "用户+++",
+        "-20": "用户++++",
+        "-24": "用户+++++",
+        "-27": "额外的话题",
+        "sql": "SQL 扩展模式",
+        "-28": "缓存",
+        "-29": "异步性和微服务",
+        "-30": "沟通",
+        "-31": "安全性",
+        "-32": "延迟数字指标",
+        "-33": "正在进行"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/scaling_aws/README.md",
+      "title": "",
+      "headings": {
+        "design-a-system-that-scales-to-millions-of-users-on-aws": "Design a system that scales to millions of users on AWS",
+        "step-1-outline-use-cases-and-constraints": "Step 1: Outline use cases and constraints",
+        "use-cases": "Use cases",
+        "constraints-and-assumptions": "Constraints and assumptions",
+        "step-2-create-a-high-level-design": "Step 2: Create a high level design",
+        "step-3-design-core-components": "Step 3: Design core components",
+        "use-case-user-makes-a-read-or-write-request": "Use case: User makes a read or write request",
+        "step-4-scale-the-design": "Step 4: Scale the design",
+        "users": "Users+",
+        "users-2": "Users++",
+        "users-3": "Users+++",
+        "users-4": "Users++++",
+        "users-5": "Users+++++",
+        "additional-talking-points": "Additional talking points",
+        "sql-scaling-patterns": "SQL scaling patterns",
+        "caching": "Caching",
+        "asynchronism-and-microservices": "Asynchronism and microservices",
+        "communications": "Communications",
+        "security": "Security",
+        "latency-numbers": "Latency numbers",
+        "ongoing": "Ongoing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/social_graph/README-zh-Hans.md",
+      "title": "",
+      "headings": {
+        "1": "第 1 步：用例和约束概要",
+        "2": "第 2 步：创建高级设计方案",
+        "3": "第 3 步：设计核心组件",
+        "4": "第 4 步：扩展设计",
+        "": "为社交网络设计数据结构",
+        "-2": "用例",
+        "-4": "约束和假设",
+        "-7": "用例： 用户搜索某人并查看到被搜人的最短路径",
+        "-8": "额外的话题",
+        "sql": "SQL 扩展模式",
+        "-9": "缓存",
+        "-10": "异步性和微服务",
+        "-11": "沟通",
+        "-12": "安全性",
+        "-13": "延迟数字指标",
+        "-14": "正在进行"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/social_graph/README.md",
+      "title": "",
+      "headings": {
+        "design-the-data-structures-for-a-social-network": "Design the data structures for a social network",
+        "step-1-outline-use-cases-and-constraints": "Step 1: Outline use cases and constraints",
+        "use-cases": "Use cases",
+        "constraints-and-assumptions": "Constraints and assumptions",
+        "step-2-create-a-high-level-design": "Step 2: Create a high level design",
+        "step-3-design-core-components": "Step 3: Design core components",
+        "use-case-user-searches-for-someone-and-sees-the-shortest-path-to-the-searched-person": "Use case: User searches for someone and sees the shortest path to the searched person",
+        "step-4-scale-the-design": "Step 4: Scale the design",
+        "additional-talking-points": "Additional talking points",
+        "sql-scaling-patterns": "SQL scaling patterns",
+        "caching": "Caching",
+        "asynchronism-and-microservices": "Asynchronism and microservices",
+        "communications": "Communications",
+        "security": "Security",
+        "latency-numbers": "Latency numbers",
+        "ongoing": "Ongoing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/twitter/README-zh-Hans.md",
+      "title": "",
+      "headings": {
+        "": "设计推特时间轴与搜索功能",
+        "-2": "第一步：简述用例与约束条件",
+        "-3": "用例",
+        "-6": "限制条件与假设",
+        "-9": "第二步：概要设计",
+        "-10": "第三步：设计核心组件",
+        "-11": "用例：用户发表了一篇推特",
+        "-12": "用例：用户浏览主页时间轴",
+        "-13": "用例：用户浏览用户时间轴",
+        "-14": "用例：用户搜索关键词",
+        "-15": "第四步：架构扩展",
+        "-16": "其它要点",
+        "-17": "缓存",
+        "-18": "异步与微服务",
+        "-19": "通信",
+        "-20": "安全性",
+        "-21": "延迟数值",
+        "-22": "持续探讨"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/twitter/README.md",
+      "title": "",
+      "headings": {
+        "design-the-twitter-timeline-and-search": "Design the Twitter timeline and search",
+        "step-1-outline-use-cases-and-constraints": "Step 1: Outline use cases and constraints",
+        "use-cases": "Use cases",
+        "constraints-and-assumptions": "Constraints and assumptions",
+        "step-2-create-a-high-level-design": "Step 2: Create a high level design",
+        "step-3-design-core-components": "Step 3: Design core components",
+        "use-case-user-posts-a-tweet": "Use case: User posts a tweet",
+        "use-case-user-views-the-home-timeline": "Use case: User views the home timeline",
+        "use-case-user-views-the-user-timeline": "Use case: User views the user timeline",
+        "use-case-user-searches-keywords": "Use case: User searches keywords",
+        "step-4-scale-the-design": "Step 4: Scale the design",
+        "additional-talking-points": "Additional talking points",
+        "caching": "Caching",
+        "asynchronism-and-microservices": "Asynchronism and microservices",
+        "communications": "Communications",
+        "security": "Security",
+        "latency-numbers": "Latency numbers",
+        "ongoing": "Ongoing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/web_crawler/README-zh-Hans.md",
+      "title": "",
+      "headings": {
+        "": "设计一个网页爬虫",
+        "-2": "第一步：简述用例与约束条件",
+        "-3": "用例",
+        "-6": "限制条件与假设",
+        "-9": "第二步： 概要设计",
+        "-10": "第三步：设计核心组件",
+        "-11": "用例：爬虫服务抓取一系列网页",
+        "-12": "处理重复内容",
+        "-13": "抓取结果更新策略",
+        "-14": "用例：用户输入搜索词后，可以看到相关的搜索结果列表，列表每一项都包含由网页爬虫生成的页面标题及摘要",
+        "-15": "第四步：架构扩展",
+        "-16": "其它要点",
+        "sql": "SQL 扩展模式",
+        "-17": "缓存",
+        "-18": "异步与微服务",
+        "-19": "通信",
+        "-20": "安全性",
+        "-21": "延迟数值",
+        "-22": "持续探讨"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "solutions/system_design/web_crawler/README.md",
+      "title": "",
+      "headings": {
+        "design-a-web-crawler": "Design a web crawler",
+        "step-1-outline-use-cases-and-constraints": "Step 1: Outline use cases and constraints",
+        "use-cases": "Use cases",
+        "constraints-and-assumptions": "Constraints and assumptions",
+        "step-2-create-a-high-level-design": "Step 2: Create a high level design",
+        "step-3-design-core-components": "Step 3: Design core components",
+        "use-case-service-crawls-a-list-of-urls": "Use case: Service crawls a list of urls",
+        "handling-duplicates": "Handling duplicates",
+        "determining-when-to-update-the-crawl-results": "Determining when to update the crawl results",
+        "use-case-user-inputs-a-search-term-and-sees-a-list-of-relevant-pages-with-titles-and-snippets": "Use case: User inputs a search term and sees a list of relevant pages with titles and snippets",
+        "step-4-scale-the-design": "Step 4: Scale the design",
+        "additional-talking-points": "Additional talking points",
+        "sql-scaling-patterns": "SQL scaling patterns",
+        "caching": "Caching",
+        "asynchronism-and-microservices": "Asynchronism and microservices",
+        "communications": "Communications",
+        "security": "Security",
+        "latency-numbers": "Latency numbers",
+        "ongoing": "Ongoing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "Landing Page",
+      "headings": {
+        "the-system-design-primer": "The System Design Primer"
       },
       "headingKeywords": {}
     }
